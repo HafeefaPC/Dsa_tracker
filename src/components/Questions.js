@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from 'react'
 import { Link } from 'react-router-dom'
-import Sparkle from '../images/Sparkle.png'
+import Sparkle from '../images/Sparkle.jpg'
 
 export default function Questions({ no, name, qlist, Checked, setChecked, qstate, setqstate, mode }) {
 
