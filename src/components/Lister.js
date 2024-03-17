@@ -1,10 +1,6 @@
 import React from "react";
 import Card from "./Card.js";
-import Questions from "./Questions.js";
-import { Link } from "react-router-dom";
-import TopLoader from "react-top-loader";
-import { useEffect } from "react";
-import styles from "./Lister.css"
+
 
 export default function Lister({
   Checked1,
@@ -96,31 +92,15 @@ export default function Lister({
       <h3 className="text-4xl mt-3 text-purple-800 align-items-center text-center  flex justify-center">
         Crack Product based companies today
       </h3>
-      {/* <div className="flex justify-center ">
-      <div className="w3-light-grey w3-round mt-10 flex m-5 w-56 ">
-        <div
-          className="w3-container w3-round w3-blue"
-          style={{
-            width: `${Math.round((progress * 100) / 88)}` + "%",
-            height: "10px",
-          }}
-        ></div>
-        </div>
-        {progress}
-      </div> */}
+
 
       <div className={"lg:ml-52 lg:mr-52 md:ml-52 md:mr-52 ml-24 mr-24 "} style={containerStyles}>
         <div style={fillerStyles}>
           <span style={labelStyles}>{`${count}% `}</span>
-          {/* <span style={labelStyles}>Completed</span> */}
+
         </div>
       </div>
 
-      {/*        
-       useEffect(() => {
-    ans = op!=null?op.length:0;
-   
- }, [Checked1,Checked2,Checked3,Checked4,Checked1,Checked5,Checked6,Checked7,Checked8,Checked9,Checked10,Checked11,Checked12,Checked13,]) */}
 
 
       <div className="flex flex-wrap lg:p-16 md:p-16  lg:m-12 md:m-12 sm:m-4 sm:max-w-sm- mt-12  mb-12 justify-center  ">
@@ -140,20 +120,9 @@ export default function Lister({
       </div>
       <div className="mb-10">
         <div className="flex justify-center ">
-          <p className="text-slate-600 font-nunito "> Linkedin : &nbsp;</p>
-          <Link
-            target="_blank"
-            className=" text-blue-700 font-nunito "
-            to="https://www.linkedin.com/in/Dev-chaitanya-tiwari-a30478200/"
-          >
-            {" "}
-            Dev Chaitanya tiwari &nbsp;
-          </Link>
 
-          <img
-            src="https://th.bing.com/th/id/R.1dde1bbff3a49d9a2d8e3ad315f9f137?rik=hx1P1nWyX7TYaw&riu=http%3a%2f%2fclipart-library.com%2fimages_k%2fheart-symbol-transparent%2fheart-symbol-transparent-7.png&ehk=tnXY15k5brhD0QZZmipdAq6M64XmIA6XDvtWxc1EXZA%3d&risl=&pid=ImgRaw&r=0"
-            className="w-6 h-6"
-          ></img>
+
+
         </div>
         <div className="flex justify-center">
           {" "}
@@ -162,13 +131,7 @@ export default function Lister({
             className="h-6 w-6"
             src="https://th.bing.com/th/id/R.968421ef5d794eb8cb555bb49dff4acd?rik=uxIlq%2bqiSDLTsA&riu=http%3a%2f%2fcdn.shopify.com%2fs%2ffiles%2f1%2f1061%2f1924%2fproducts%2fStar_Emoji_grande.png%3fv%3d1480481043&ehk=1a3L6akK6vOPWmacDkHduTA1L5brh2me2a3w7ivd%2fHE%3d&risl=&pid=ImgRaw&r=0"
           ></img>
-          <Link
-            target="_blank"
-            className="text-sky-600 "
-            to="https://github.com/Dct-tcd"
-          >
-            &nbsp; Github \ Dct-tcd{" "}
-          </Link>
+
         </div>
       </div>
     </div>
